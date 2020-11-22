@@ -1316,7 +1316,7 @@ public:
 
         endGame();
     }
-
+    
     void endGame()
     {
         std::cout << "Player 1 has a total sum of: " << a1.finalSum << "\n";
@@ -1341,7 +1341,6 @@ public:
 class Menu : Yatzy
 {
 public:
-
     bool menu = true;
 public:
     void printMenu()
@@ -1399,6 +1398,7 @@ public:
                 a2.gameCount = i2.sCol;
 
                 option = false;
+                break;
             case '2':
                 a1.a = i1.sCol - 3;
                 a2.a = i2.sCol - 3;
